@@ -1,0 +1,25 @@
+{
+  "name": "tinkerhub-device-miio",
+  "version": "0.1.0",
+  "description": "Allow Mi Home devices to join a Tinkerhub network",
+  "repository": "tinkerhub/tinkerhub-device-miio",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "tinkerhub-plugin",
+    "miio",
+    "mi home",
+    "xiaomi"
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/eslint ."
+  },
+  "dependencies": {
+    "miio": "^0.15.1",
+    "tinkerhub": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-node": "^5.2.1"
+  }
+}
