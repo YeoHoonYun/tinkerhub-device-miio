@@ -17,6 +17,12 @@ via:
 $ tinkerhubd install device-miio
 ```
 
+Using NPM:
+
+```
+$ npm install tinkerhub-device-miio
+```
+
 ## Supported devices
 
 * Air Purifiers (1, 2 and Pro)
